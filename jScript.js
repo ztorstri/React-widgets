@@ -14,6 +14,8 @@ function main() {
       xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
+          // this will need to be changed once we can test from the devHost,
+          // due to cross-source restrictions on AJAX
           alert(" :) ");
         }
       }
