@@ -1,0 +1,115 @@
+/* pulled from grnoc.iu.edu */
+body {
+    font: 14px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+    color: #444;
+    weight: 200;
+    /* added(cfarvin) */
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* pulled from grnoc.iu.edu */
+h1 {
+    /* edited(cfarvin) */
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    /* added(cfarvin) */
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* pulled from grnoc.iu.edu */
+p {
+    margin: 6px 0 14px;
+    /* added(cfarvin) */
+    margin: auto;
+    align-content: center;
+
+}
+
+/* added(cfarvin) */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-flex;
+  background-color: #444;
+  color: white;
+  padding: 5px 16px;
+}
+
+ul li:hover {
+  background-color: #2C0303;
+  color: white;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  display: inline-flex;
+  padding: 5px;
+}
+
+h2 {
+  font-size: 1.0em;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  margin: auto;
+  align-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#buttons {
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+#rawJSON {
+  background-color: #2C0303;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  width: 30%;
+  float: left;
+  padding: 5px;
+}
+
+#table {
+  background-color: grey;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  width: 65%;
+  float: right;
+  padding: 5px;
+}
+
+#insertJSON {
+  font-size: 0.75em;
+  font-weight: normal;
+  font-family: "Courier New";
+  text-align: left;
+}
+
+#insertTable {
+  font-size: 1em;
+  font-weight: normal;
+}
