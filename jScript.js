@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+=======
+// only run this script when the page is loaded
+>>>>>>> f4062b2bc6f42f4cc73e090e41ec8555e78f7d07
 window.onload = main;
 
 function main() {
 
+<<<<<<< HEAD
     var jsonData; // will hold the data returned from the ajax request
     function getDate() {
 	var dateTime = new Date();
@@ -42,4 +47,29 @@ function main() {
         xhttp.open("GET", "sampleData.json", true);
         xhttp.send();
     }
+=======
+  document.getElementById("loadJSONButton").onclick = function() {
+    loadJSON();
+  }
+
+  function loadJSON() {
+    // create an AJAX request
+    var xhttp;
+    if (window.XMLHttpRequest) {
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          // this will need to be changed once we can test from the devHost,
+          // due to cross-source restrictions on AJAX
+          alert(" :) ");
+        }
+      }
+    } else {
+      alert("This broswer is too outdated to process modern AJAX requests. Please upgrade before proceeding.");
+    }
+    // send the AJAX request
+    xhttp.open("GET", "sampleData.JSON", true);
+    xhttp.send();
+  }
+>>>>>>> f4062b2bc6f42f4cc73e090e41ec8555e78f7d07
 }

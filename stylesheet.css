@@ -7,9 +7,13 @@ body {
     margin: auto;
     align-content: center;
     text-align: center;
+<<<<<<< HEAD
     padding: 20px;
     padding-left: 30px;
     padding-right: 30px;
+=======
+    padding: 10px;
+>>>>>>> f4062b2bc6f42f4cc73e090e41ec8555e78f7d07
 }
 
 /* pulled from grnoc.iu.edu */
@@ -76,6 +80,7 @@ h2 {
   text-align: center;
   padding-bottom: 10px;
 }
+<<<<<<< HEAD
 
 #buttons {
   padding: 10px;
@@ -113,3 +118,5 @@ h2 {
   font-size: 1em;
   font-weight: normal;
 }
+=======
+>>>>>>> f4062b2bc6f42f4cc73e090e41ec8555e78f7d07
